@@ -15,7 +15,7 @@ cmake -DCMAKE_BUILD_TYPE="Release" -DCMAKE_INSTALL_PREFIX=$PWD ..
 make
 ```
 
-You should get `ds202_sample1` and `ds202_sample2` executables in `build/examples` folder.
+You should get `ds202_sample1` and `ds202_sample2` executables in `build/examples` folder. You can start your homework by downloading this repository, and then add your code, i.e., either a C or C++ file in [examples](examples) folder.
 
 ### FAQ
 
