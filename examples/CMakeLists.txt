@@ -15,9 +15,7 @@ foreach(src suftest mksary sasearch bwt unbwt ds202_sample1 ds202_sample2)
 endforeach(src)
 
 ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## 
-## If you are not familiar with Makefile, and not sure how to compile your code,
-## then follow the instructions below.
-## Put your code in the "examples" directory of the project.
+## You can put your code in the "examples" directory of the project.
 ## Suppose your code file is called as ds202_homework.cpp, then add the following two 
 ## lines at the bottom of this file.
 ## 
