@@ -20,4 +20,4 @@ You should get `ds202_sample1` and `ds202_sample2` executables in `build/example
 ### FAQ
 
 - Question: While compiling my code, I get an error saying **undefined reference to divsufsort**
-- - You need to modify [examples/CMakeLists.txt](examples/CMakeLists.txt). Afterwards, run `cmake` and `make` commands as shown above.
+- - The above error occurs when you are not linking divsufsort library during compilation. You can  modify [examples/CMakeLists.txt](examples/CMakeLists.txt) by reading my comments. Afterwards, run `cmake` and `make` commands as shown above.
