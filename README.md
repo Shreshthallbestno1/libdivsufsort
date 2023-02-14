@@ -15,7 +15,26 @@ cmake -DCMAKE_BUILD_TYPE="Release" -DCMAKE_INSTALL_PREFIX=$PWD ..
 make
 ```
 
-You should get `ds202_sample1` and `ds202_sample2` executables in `build/examples` folder. You can start your homework by [downloading](https://github.com/cjain7/libdivsufsort/archive/refs/heads/master.zip) this repository, and then add your code, i.e., either a C or C++ file in [examples](examples) folder.
+You should get `ds202_sample1` and `ds202_sample2` executables in `build/examples` folder.
+
+```
+$ pwd
+... /libdivsufsort/build
+$ ./examples/ds202_sample1
+SA[ 0] = 10: a$
+SA[ 1] =  7: abra$
+SA[ 2] =  0: abracadabra$
+SA[ 3] =  3: acadabra$
+SA[ 4] =  5: adabra$
+SA[ 5] =  8: bra$
+SA[ 6] =  1: bracadabra$
+SA[ 7] =  4: cadabra$
+SA[ 8] =  6: dabra$
+SA[ 9] =  9: ra$
+SA[10] =  2: racadabra$
+```
+
+You can start your homework by [downloading](https://github.com/cjain7/libdivsufsort/archive/refs/heads/master.zip) this repository, and then add your code, i.e., either a C or C++ file in [examples](examples) folder.
 
 ### FAQ
 
