@@ -17,14 +17,14 @@ endforeach(src)
 ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## 
 ## If you are not familiar with Makefile, and not sure how to compile your code,
 ## then follow the instructions below.
-## Put your code in the examples directory.
-## Suppose your code file is called as homework.cpp, then add the following two 
+## Put your code in the "examples" directory of the project.
+## Suppose your code file is called as ds202_homework.cpp, then add the following two 
 ## lines at the bottom of this file.
 ## 
-## add_executable(homework homework.cpp)
-## target_link_libraries(homework divsufsort)
+## add_executable(ds202_homework ds202_homework.cpp)
+## target_link_libraries(ds202_homework divsufsort)
 ## 
 ## After adding the two lines, go to build directory of your project. Run cmake
 ## and make commands again as communicated in README file. After a successful compile,
-## you should see an executable named "homework" in the build/examples folder.
+## you should see an executable named "ds202_homework" in the build/examples folder.
 ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## 
