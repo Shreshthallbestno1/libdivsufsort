@@ -34,7 +34,7 @@ SA[ 9] =  9: ra$
 SA[10] =  2: racadabra$
 ```
 
-You can start your homework by [downloading](https://github.com/cjain7/libdivsufsort/archive/refs/heads/master.zip) this repository, and then add your code, i.e., either a C or C++ file in [examples](examples) folder.
+You can start your homework by [downloading](https://github.com/cjain7/libdivsufsort/archive/refs/heads/master.zip) this repository, and then add your code, i.e., either a C or C++ file inside [examples](examples) folder.
 
 ### FAQ
 
