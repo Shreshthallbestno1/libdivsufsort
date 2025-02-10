@@ -1,3 +1,4 @@
+PROJECT(HW3)
 ## Add definitions ##
 add_definitions(-D_LARGEFILE_SOURCE -D_LARGE_FILES -D_FILE_OFFSET_BITS=64)
 
@@ -13,6 +14,9 @@ foreach(src suftest mksary sasearch bwt unbwt ds202_sample1 ds202_sample2)
   add_executable(${src} ${src}.c)
   target_link_libraries(${src} divsufsort)
 endforeach(src)
+
+add_executable(hw3 hw3.cpp)
+target_link_libraries(hw3 divsufsort)
 
 ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## 
 ## You can put your code in the "examples" directory of the project.
